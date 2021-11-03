@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="rov_subseatech" name="station" type="station" output="screen" launch-prefix="gnome-terminal --command" />
+	<node pkg="rov_subseatech" name="rov" type="rov" />
+	
+</launch>
+

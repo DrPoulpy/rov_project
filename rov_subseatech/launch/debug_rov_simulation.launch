@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="rov_subseatech" name="station" type="station" output="screen" launch-prefix="gnome-terminal --command" />
+		<arg name="node_start_delay" default="1.0" /> 
+	<node pkg="rov_subseatech" name="rov" type="rov" output="screen" launch-prefix="gnome-terminal --command" />
+	
+</launch>
+
